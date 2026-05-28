@@ -4,5 +4,246 @@
   { "id": "bitwarden", "name": "Bitwarden", "url": "https://vault.bitwarden.com/", "icon": "🔐" },
   { "id": "telegram", "name": "Telegram", "url": "https://web.telegram.org/", "icon": "✈️" },
   { "id": "spotify", "name": "Spotify", "url": "https://open.spotify.com/", "icon": "🎧" },
-  { "id": "photos", "name": "Google Photos", "url": "https://photos.google.com/", "icon": "📸" }
+  { "id": "photos", "name": "Google Photos", "url": "https://photos.google.com/", "icon": "📸" },
+  {
+    "name": "Chrome",
+    "package": "com.android.chrome",
+    "icon": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+    "url": "https://www.google.com/chrome/",
+    "category": "Navigateur",
+    "pwa": true
+  },
+  {
+    "name": "YouTube",
+    "package": "com.google.android.youtube",
+    "icon": "https://www.youtube.com/s/desktop/favicon_32x32.png",
+    "url": "https://m.youtube.com",
+    "category": "Vidéo",
+    "pwa": true
+  },
+  {
+    "name": "YouTube Music",
+    "package": "com.google.android.apps.youtube.music",
+    "icon": "https://music.youtube.com/img/favicon_144.png",
+    "url": "https://music.youtube.com",
+    "category": "Musique",
+    "pwa": true
+  },
+  {
+    "name": "Gmail",
+    "package": "com.google.android.gm",
+    "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
+    "url": "https://mail.google.com",
+    "category": "Communication",
+    "pwa": true
+  },
+  {
+    "name": "Google Maps",
+    "package": "com.google.android.apps.maps",
+    "icon": "https://maps.gstatic.com/favicon3.ico",
+    "url": "https://maps.google.com",
+    "category": "Navigation",
+    "pwa": true
+  },
+  {
+    "name": "Google Drive",
+    "package": "com.google.android.apps.docs",
+    "icon": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png",
+    "url": "https://drive.google.com",
+    "category": "Cloud",
+    "pwa": true
+  },
+  {
+    "name": "Google Docs",
+    "package": "com.google.android.apps.docs.editors.docs",
+    "icon": "https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico",
+    "url": "https://docs.google.com",
+    "category": "Productivité",
+    "pwa": true
+  },
+  {
+    "name": "Google Sheets",
+    "package": "com.google.android.apps.docs.editors.sheets",
+    "icon": "https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico",
+    "url": "https://sheets.google.com",
+    "category": "Productivité",
+    "pwa": true
+  },
+  {
+    "name": "Google Meet",
+    "package": "com.google.android.apps.meetings",
+    "icon": "https://ssl.gstatic.com/meet/google_meet_icon.png",
+    "url": "https://meet.google.com",
+    "category": "Communication",
+    "pwa": true
+  },
+  {
+    "name": "Google Calendar",
+    "package": "com.google.android.calendar",
+    "icon": "https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_31_2x.png",
+    "url": "https://calendar.google.com",
+    "category": "Agenda",
+    "pwa": true
+  },
+  {
+    "name": "WhatsApp",
+    "package": "com.whatsapp",
+    "icon": "https://web.whatsapp.com/favicon.ico",
+    "url": "https://web.whatsapp.com",
+    "category": "Messagerie",
+    "pwa": true
+  },
+  {
+    "name": "Telegram",
+    "package": "org.telegram.messenger",
+    "icon": "https://telegram.org/img/t_logo.svg",
+    "url": "https://web.telegram.org",
+    "category": "Messagerie",
+    "pwa": true
+  },
+  {
+    "name": "Discord",
+    "package": "com.discord",
+    "icon": "https://discord.com/assets/favicon.ico",
+    "url": "https://discord.com/app",
+    "category": "Messagerie",
+    "pwa": true
+  },
+  {
+    "name": "Spotify",
+    "package": "com.spotify.music",
+    "icon": "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png",
+    "url": "https://open.spotify.com",
+    "category": "Musique",
+    "pwa": true
+  },
+  {
+    "name": "Netflix",
+    "package": "com.netflix.mediaclient",
+    "icon": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico",
+    "url": "https://www.netflix.com",
+    "category": "Streaming",
+    "pwa": true
+  },
+  {
+    "name": "Prime Video",
+    "package": "com.amazon.avod.thirdpartyclient",
+    "icon": "https://m.media-amazon.com/images/G/01/digital/video/web/logo-min-remaster.png",
+    "url": "https://www.primevideo.com",
+    "category": "Streaming",
+    "pwa": true
+  },
+  {
+    "name": "Canva",
+    "package": "com.canva.editor",
+    "icon": "https://static.canva.com/static/images/favicon.ico",
+    "url": "https://www.canva.com",
+    "category": "Design",
+    "pwa": true
+  },
+  {
+    "name": "Figma",
+    "package": "com.figma.mirror",
+    "icon": "https://static.figma.com/app/icon/1/favicon.ico",
+    "url": "https://www.figma.com",
+    "category": "Design",
+    "pwa": true
+  },
+  {
+    "name": "Photopea",
+    "package": "com.photopea.editor",
+    "icon": "https://www.photopea.com/promo/icon512.png",
+    "url": "https://www.photopea.com",
+    "category": "Photo",
+    "pwa": true
+  },
+  {
+    "name": "Twitter X",
+    "package": "com.twitter.android",
+    "icon": "https://abs.twimg.com/favicons/twitter.2.ico",
+    "url": "https://x.com",
+    "category": "Réseaux sociaux",
+    "pwa": true
+  },
+  {
+    "name": "Facebook",
+    "package": "com.facebook.katana",
+    "icon": "https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico",
+    "url": "https://facebook.com",
+    "category": "Réseaux sociaux",
+    "pwa": true
+  },
+  {
+    "name": "Instagram",
+    "package": "com.instagram.android",
+    "icon": "https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.ico",
+    "url": "https://instagram.com",
+    "category": "Réseaux sociaux",
+    "pwa": true
+  },
+  {
+    "name": "TikTok",
+    "package": "com.zhiliaoapp.musically",
+    "icon": "https://www.tiktok.com/favicon.ico",
+    "url": "https://www.tiktok.com",
+    "category": "Réseaux sociaux",
+    "pwa": true
+  },
+  {
+    "name": "Pinterest",
+    "package": "com.pinterest",
+    "icon": "https://s.pinimg.com/webapp/favicon-72x72.png",
+    "url": "https://www.pinterest.com",
+    "category": "Réseaux sociaux",
+    "pwa": true
+  },
+  {
+    "name": "Snapdrop",
+    "package": "com.snapdrop",
+    "icon": "https://snapdrop.net/images/favicon-96x96.png",
+    "url": "https://snapdrop.net",
+    "category": "Partage",
+    "pwa": true
+  },
+  {
+    "name": "Notion",
+    "package": "notion.id",
+    "icon": "https://www.notion.so/images/favicon.ico",
+    "url": "https://www.notion.so",
+    "category": "Notes",
+    "pwa": true
+  },
+  {
+    "name": "Trello",
+    "package": "com.trello",
+    "icon": "https://trello.com/favicon.ico",
+    "url": "https://trello.com",
+    "category": "Organisation",
+    "pwa": true
+  },
+  {
+    "name": "GitHub",
+    "package": "com.github.android",
+    "icon": "https://github.githubassets.com/favicons/favicon.svg",
+    "url": "https://github.com",
+    "category": "Développement",
+    "pwa": true
+  },
+  {
+    "name": "VS Code Web",
+    "package": "com.microsoft.vscode.web",
+    "icon": "https://code.visualstudio.com/favicon.ico",
+    "url": "https://vscode.dev",
+    "category": "Développement",
+    "pwa": true
+  },
+  {
+    "name": "CodeSandbox",
+    "package": "io.codesandbox.app",
+    "icon": "https://codesandbox.io/favicon.ico",
+    "url": "https://codesandbox.io",
+    "category": "Développement",
+    "pwa": true
+  }
 ]
+```
