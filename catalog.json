@@ -1,0 +1,8 @@
+[
+  { "id": "squoosh", "name": "Squoosh", "url": "https://squoosh.app/", "icon": "🖼️" },
+  { "id": "keep", "name": "Google Keep", "url": "https://keep.google.com/", "icon": "💡" },
+  { "id": "bitwarden", "name": "Bitwarden", "url": "https://vault.bitwarden.com/", "icon": "🔐" },
+  { "id": "telegram", "name": "Telegram", "url": "https://web.telegram.org/", "icon": "✈️" },
+  { "id": "spotify", "name": "Spotify", "url": "https://open.spotify.com/", "icon": "🎧" },
+  { "id": "photos", "name": "Google Photos", "url": "https://photos.google.com/", "icon": "📸" }
+]
