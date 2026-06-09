@@ -1,248 +1,36 @@
 [
-  { "id": "squoosh", "name": "Squoosh", "url": "https://squoosh.app/", "icon": "🖼️" },
-  { "id": "keep", "name": "Google Keep", "url": "https://keep.google.com/", "icon": "💡" },
-  { "id": "bitwarden", "name": "Bitwarden", "url": "https://vault.bitwarden.com/", "icon": "🔐" },
-  { "id": "telegram", "name": "Telegram", "url": "https://web.telegram.org/", "icon": "✈️" },
-  { "id": "spotify", "name": "Spotify", "url": "https://open.spotify.com/", "icon": "🎧" },
-  { "id": "photos", "name": "Google Photos", "url": "https://photos.google.com/", "icon": "📸" },
-  {
-    "name": "Chrome",
-    "package": "com.android.chrome",
-    "icon": "https://www.google.com/chrome/static/images/chrome-logo.svg",
-    "url": "https://www.google.com/chrome/",
-    "category": "Navigateur",
-    "pwa": true
-  },
-  {
-    "name": "YouTube",
-    "package": "com.google.android.youtube",
-    "icon": "https://www.youtube.com/s/desktop/favicon_32x32.png",
-    "url": "https://m.youtube.com",
-    "category": "Vidéo",
-    "pwa": true
-  },
-  {
-    "name": "YouTube Music",
-    "package": "com.google.android.apps.youtube.music",
-    "icon": "https://music.youtube.com/img/favicon_144.png",
-    "url": "https://music.youtube.com",
-    "category": "Musique",
-    "pwa": true
-  },
-  {
-    "name": "Gmail",
-    "package": "com.google.android.gm",
-    "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
-    "url": "https://mail.google.com",
-    "category": "Communication",
-    "pwa": true
-  },
-  {
-    "name": "Google Maps",
-    "package": "com.google.android.apps.maps",
-    "icon": "https://maps.gstatic.com/favicon3.ico",
-    "url": "https://maps.google.com",
-    "category": "Navigation",
-    "pwa": true
-  },
-  {
-    "name": "Google Drive",
-    "package": "com.google.android.apps.docs",
-    "icon": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png",
-    "url": "https://drive.google.com",
-    "category": "Cloud",
-    "pwa": true
-  },
-  {
-    "name": "Google Docs",
-    "package": "com.google.android.apps.docs.editors.docs",
-    "icon": "https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico",
-    "url": "https://docs.google.com",
-    "category": "Productivité",
-    "pwa": true
-  },
-  {
-    "name": "Google Sheets",
-    "package": "com.google.android.apps.docs.editors.sheets",
-    "icon": "https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico",
-    "url": "https://sheets.google.com",
-    "category": "Productivité",
-    "pwa": true
-  },
-  {
-    "name": "Google Meet",
-    "package": "com.google.android.apps.meetings",
-    "icon": "https://ssl.gstatic.com/meet/google_meet_icon.png",
-    "url": "https://meet.google.com",
-    "category": "Communication",
-    "pwa": true
-  },
-  {
-    "name": "Google Calendar",
-    "package": "com.google.android.calendar",
-    "icon": "https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_31_2x.png",
-    "url": "https://calendar.google.com",
-    "category": "Agenda",
-    "pwa": true
-  },
-  {
-    "name": "WhatsApp",
-    "package": "com.whatsapp",
-    "icon": "https://web.whatsapp.com/favicon.ico",
-    "url": "https://web.whatsapp.com",
-    "category": "Messagerie",
-    "pwa": true
-  },
-  {
-    "name": "Telegram",
-    "package": "org.telegram.messenger",
-    "icon": "https://telegram.org/img/t_logo.svg",
-    "url": "https://web.telegram.org",
-    "category": "Messagerie",
-    "pwa": true
-  },
-  {
-    "name": "Discord",
-    "package": "com.discord",
-    "icon": "https://discord.com/assets/favicon.ico",
-    "url": "https://discord.com/app",
-    "category": "Messagerie",
-    "pwa": true
-  },
-  {
-    "name": "Spotify",
-    "package": "com.spotify.music",
-    "icon": "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png",
-    "url": "https://open.spotify.com",
-    "category": "Musique",
-    "pwa": true
-  },
-  {
-    "name": "Netflix",
-    "package": "com.netflix.mediaclient",
-    "icon": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico",
-    "url": "https://www.netflix.com",
-    "category": "Streaming",
-    "pwa": true
-  },
-  {
-    "name": "Prime Video",
-    "package": "com.amazon.avod.thirdpartyclient",
-    "icon": "https://m.media-amazon.com/images/G/01/digital/video/web/logo-min-remaster.png",
-    "url": "https://www.primevideo.com",
-    "category": "Streaming",
-    "pwa": true
-  },
-  {
-    "name": "Canva",
-    "package": "com.canva.editor",
-    "icon": "https://static.canva.com/static/images/favicon.ico",
-    "url": "https://www.canva.com",
-    "category": "Design",
-    "pwa": true
-  },
-  {
-    "name": "Figma",
-    "package": "com.figma.mirror",
-    "icon": "https://static.figma.com/app/icon/1/favicon.ico",
-    "url": "https://www.figma.com",
-    "category": "Design",
-    "pwa": true
-  },
-  {
-    "name": "Photopea",
-    "package": "com.photopea.editor",
-    "icon": "https://www.photopea.com/promo/icon512.png",
-    "url": "https://www.photopea.com",
-    "category": "Photo",
-    "pwa": true
-  },
-  {
-    "name": "Twitter X",
-    "package": "com.twitter.android",
-    "icon": "https://abs.twimg.com/favicons/twitter.2.ico",
-    "url": "https://x.com",
-    "category": "Réseaux sociaux",
-    "pwa": true
-  },
-  {
-    "name": "Facebook",
-    "package": "com.facebook.katana",
-    "icon": "https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico",
-    "url": "https://facebook.com",
-    "category": "Réseaux sociaux",
-    "pwa": true
-  },
-  {
-    "name": "Instagram",
-    "package": "com.instagram.android",
-    "icon": "https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.ico",
-    "url": "https://instagram.com",
-    "category": "Réseaux sociaux",
-    "pwa": true
-  },
-  {
-    "name": "TikTok",
-    "package": "com.zhiliaoapp.musically",
-    "icon": "https://www.tiktok.com/favicon.ico",
-    "url": "https://www.tiktok.com",
-    "category": "Réseaux sociaux",
-    "pwa": true
-  },
-  {
-    "name": "Pinterest",
-    "package": "com.pinterest",
-    "icon": "https://s.pinimg.com/webapp/favicon-72x72.png",
-    "url": "https://www.pinterest.com",
-    "category": "Réseaux sociaux",
-    "pwa": true
-  },
-  {
-    "name": "Snapdrop",
-    "package": "com.snapdrop",
-    "icon": "https://snapdrop.net/images/favicon-96x96.png",
-    "url": "https://snapdrop.net",
-    "category": "Partage",
-    "pwa": true
-  },
-  {
-    "name": "Notion",
-    "package": "notion.id",
-    "icon": "https://www.notion.so/images/favicon.ico",
-    "url": "https://www.notion.so",
-    "category": "Notes",
-    "pwa": true
-  },
-  {
-    "name": "Trello",
-    "package": "com.trello",
-    "icon": "https://trello.com/favicon.ico",
-    "url": "https://trello.com",
-    "category": "Organisation",
-    "pwa": true
-  },
-  {
-    "name": "GitHub",
-    "package": "com.github.android",
-    "icon": "https://github.githubassets.com/favicons/favicon.svg",
-    "url": "https://github.com",
-    "category": "Développement",
-    "pwa": true
-  },
-  {
-    "name": "VS Code Web",
-    "package": "com.microsoft.vscode.web",
-    "icon": "https://code.visualstudio.com/favicon.ico",
-    "url": "https://vscode.dev",
-    "category": "Développement",
-    "pwa": true
-  },
-  {
-    "name": "CodeSandbox",
-    "package": "io.codesandbox.app",
-    "icon": "https://codesandbox.io/favicon.ico",
-    "url": "https://codesandbox.io",
-    "category": "Développement",
-    "pwa": true
-  }
+  { "package_id": "com.squoosh.webos", "name": "Squoosh", "category": "Web", "description": "Compressez et optimisez vos images.", "url": "https://squoosh.app", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/squoosh.png", "is_verified": true },
+  { "package_id": "com.google.keep.webos", "name": "Google Keep", "category": "Web", "description": "Prenez des notes rapidement.", "url": "https://keep.google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-keep.png", "is_verified": true },
+  { "package_id": "com.bitwarden.webos", "name": "Bitwarden", "category": "Web", "description": "Gestionnaire de mots de passe sécurisé.", "url": "https://vault.bitwarden.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/bitwarden.png", "is_verified": true },
+  { "package_id": "org.telegram.webos", "name": "Telegram", "category": "Messagerie", "description": "Messagerie rapide et sécurisée.", "url": "https://web.telegram.org", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/telegram.png", "is_verified": true },
+  { "package_id": "com.spotify.webos", "name": "Spotify", "category": "Musique", "description": "Écoutez des millions de titres.", "url": "https://open.spotify.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/spotify.png", "is_verified": true },
+  { "package_id": "com.google.photos.webos", "name": "Google Photos", "category": "Web", "description": "Stockage et partage de photos.", "url": "https://photos.google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-photos.png", "is_verified": true },
+  { "package_id": "com.google.chrome.webos", "name": "Chrome", "category": "Navigateur", "description": "Le navigateur web de Google.", "url": "https://google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-chrome.png", "is_verified": true },
+  { "package_id": "com.youtube.webos", "name": "YouTube", "category": "Vidéo", "description": "Regardez des vidéos et partagez.", "url": "https://youtube.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/youtube.png", "is_verified": true },
+  { "package_id": "com.youtube.music.webos", "name": "YouTube Music", "category": "Musique", "description": "Écoutez votre musique préférée.", "url": "https://music.youtube.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/youtube-music.png", "is_verified": true },
+  { "package_id": "com.google.gmail.webos", "name": "Gmail", "category": "Communication", "description": "La messagerie de Google.", "url": "https://mail.google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-gmail.png", "is_verified": true },
+  { "package_id": "com.google.maps.webos", "name": "Google Maps", "category": "Navigation", "description": "Cartes et navigation gps.", "url": "https://maps.google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-maps.png", "is_verified": true },
+  { "package_id": "com.google.drive.webos", "name": "Google Drive", "category": "Cloud", "description": "Stockage cloud sécurisé.", "url": "https://drive.google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-drive.png", "is_verified": true },
+  { "package_id": "com.google.docs.webos", "name": "Google Docs", "category": "Productivité", "description": "Traitement de texte en ligne.", "url": "https://docs.google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-docs.png", "is_verified": true },
+  { "package_id": "com.google.sheets.webos", "name": "Google Sheets", "category": "Productivité", "description": "Tableur collaboratif en ligne.", "url": "https://sheets.google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-sheets.png", "is_verified": true },
+  { "package_id": "com.google.meet.webos", "name": "Google Meet", "category": "Communication", "description": "Visioconférences professionnelles.", "url": "https://meet.google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-meet.png", "is_verified": true },
+  { "package_id": "com.google.calendar.webos", "name": "Google Calendar", "category": "Agenda", "description": "Planifiez vos événements.", "url": "https://calendar.google.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-calendar.png", "is_verified": true },
+  { "package_id": "com.whatsapp.webos", "name": "WhatsApp", "category": "Messagerie", "description": "Restez en contact avec vos proches.", "url": "https://web.whatsapp.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/whatsapp.png", "is_verified": true },
+  { "package_id": "com.discord.webos", "name": "Discord", "category": "Messagerie", "description": "Discutez et jouez en communauté.", "url": "https://discord.com/app", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/discord.png", "is_verified": true },
+  { "package_id": "com.netflix.webos", "name": "Netflix", "category": "Streaming", "description": "Films et séries TV en streaming.", "url": "https://netflix.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/netflix.png", "is_verified": true },
+  { "package_id": "com.primevideo.webos", "name": "Prime Video", "category": "Streaming", "description": "Regardez des contenus exclusifs.", "url": "https://primevideo.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/amazon-prime-video.png", "is_verified": true },
+  { "package_id": "com.canva.webos", "name": "Canva", "category": "Design", "description": "Outil de conception graphique.", "url": "https://canva.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/canva.png", "is_verified": true },
+  { "package_id": "com.figma.webos", "name": "Figma", "category": "Design", "description": "Outil collaboratif d'interface graphique.", "url": "https://figma.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/figma.png", "is_verified": true },
+  { "package_id": "com.photopea.webos", "name": "Photopea", "category": "Photo", "description": "Éditeur de photos avancé.", "url": "https://photopea.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/photopea.png", "is_verified": true },
+  { "package_id": "com.twitter.webos", "name": "Twitter X", "category": "Réseaux sociaux", "description": "Réseau d'actualités en direct.", "url": "https://x.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/twitter.png", "is_verified": true },
+  { "package_id": "com.facebook.webos", "name": "Facebook", "category": "Réseaux sociaux", "description": "Connectez-vous à vos amis.", "url": "https://facebook.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/facebook.png", "is_verified": true },
+  { "package_id": "com.instagram.webos", "name": "Instagram", "category": "Réseaux sociaux", "description": "Partagez vos photos et stories.", "url": "https://instagram.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/instagram.png", "is_verified": true },
+  { "package_id": "com.tiktok.webos", "name": "TikTok", "category": "Réseaux sociaux", "description": "Courtes vidéos divertissantes.", "url": "https://tiktok.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tiktok.png", "is_verified": true },
+  { "package_id": "com.pinterest.webos", "name": "Pinterest", "category": "Réseaux sociaux", "description": "Trouvez des idées d'inspiration.", "url": "https://pinterest.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pinterest.png", "is_verified": true },
+  { "package_id": "net.snapdrop.webos", "name": "Snapdrop", "category": "Partage", "description": "Partagez des fichiers en réseau local.", "url": "https://snapdrop.net", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/snapdrop.png", "is_verified": true },
+  { "package_id": "com.notion.webos", "name": "Notion", "category": "Notes", "description": "Espace de travail tout-en-un.", "url": "https://notion.so", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/notion.png", "is_verified": true },
+  { "package_id": "com.trello.webos", "name": "Trello", "category": "Organisation", "description": "Gestion de projet par tableaux.", "url": "https://trello.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/trello.png", "is_verified": true },
+  { "package_id": "com.github.webos", "name": "GitHub", "category": "Développement", "description": "Hébergement et gestion de code source.", "url": "https://github.com", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/github.png", "is_verified": true },
+  { "package_id": "com.vscode.webos", "name": "VS Code Web", "category": "Développement", "description": "Éditeur de code puissant dans le navigateur.", "url": "https://vscode.dev", "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/visual-studio-code.png", "is_verified": true },
+  { "package_id": "com.codesandbox.webos", "name": "CodeSandbox", "category": "Développement", "description": "Environnement de développement cloud.", "url": "https://codesandbox.io", "logo_url": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/codesandbox.png", "is_verified": true }
 ]
